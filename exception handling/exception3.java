@@ -1,4 +1,5 @@
 //uses of the throws statement
+//creating our own exception
 class myexception extends Exception
 {
 	myexception(String s)
@@ -12,7 +13,7 @@ class exception3
 	{
 		if(age<18)
 		{
-			//throws an exception if the above question doesnt satisfy
+			//throws an exception made above if the above question doesnt satisfy
 			throw new myexception("you are not valid to vote");
 		}
 		else
